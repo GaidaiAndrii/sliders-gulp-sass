@@ -1,6 +1,5 @@
 $width-100: 100%;
  
-
 slider {
   display: block ;
   width: $width-100; 
@@ -22,21 +21,6 @@ slider {
 
 }
 
-
-  // ul {
-  //  list-style: none;
-  //  display: block;
-  //  margin: 0px;
-  //  padding: 0px;
-  // }
-  // li {
-  //  display: none;
-  // }
-  // img {
-  //   width: $width-100;
-  // }
-
-
 .arrow {
   width: 30px;
   height: 30px;
@@ -51,16 +35,16 @@ slider {
   filter: alpha(opacity=60);
 }
 
-  .arrow_left {
-    position: absolute; 
-    top:50%; 
-    left: 30px;
-  }
-  .arrow_right {
-    position: absolute; 
-    top:50%; 
-    right: 30px;
-  }
+.arrow_left {
+  position: absolute; 
+  top:50%; 
+  left: 30px;
+}
+.arrow_right {
+  position: absolute; 
+  top:50%; 
+  right: 30px;
+}
 .play_bottom_bar {  
   position: absolute;
   bottom: 20px;
